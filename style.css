@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerpart{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.253);
+    
+    font-size: 1.5em;
+    font-family: serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+
+}
+.ul-header ,.signin{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+.ul-header li ,.signin{
+    padding: 20px;
+    list-style-type: none;   
+}
+.headerpart img{
+    position: absolute;
+    left: 10px;
+    align-items: center;
+    margin: 7px 0 4px 0;
+}
+.signin{
+    position: absolute;
+    right: 10px;
+    border: 1px solid ;
+    padding: 9px;
+   margin: 10px;
+   margin-left: 49%;
+   border-radius: 15px;
+   border: none;
+    background-color: rgba(255, 166, 0, 0.664);
+    
+}
+.ul-header li a{
+    text-decoration: none;
+}
+
+.ul-header li a:hover ,.signin:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.form-wrapper{
+    width: 49%;
+    height: 560px;
+     
+}
+.form-wrapper .formm{
+   position: relative;
+    border: 2px solid ;
+    border-radius: 20px;
+    padding:10px ;
+    width: 80%;
+    text-align: center;
+    background-color:rgba(255, 235, 205, 0.788);
+    margin: 10%;
+    height: 85%;
+    border: none;
+}
+#join{
+    font-size: 20px;
+   padding: 10px;}
+.sec1-img{
+   
+    padding: 20px;
+    width: 49%;
+}
+.sec1{
+    background-image: url(images/priscilla-du-preez-A5ORfo8CM1E-unsplash.jpg);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.formm input,button {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 5% 20%;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    background-color: rgba(255, 166, 0, 0.664);
+}
+.sec1-img {
+    text-align: center;
+    color:rgb(255, 235, 205);
+
+}
+.sec1-img h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:white;
+}
+.fa-eye-slash:before {
+    content: "\f070";}
+.additionaltext{
+margin: 0;
+padding: 0;
+color: tomato;
+}
+
+.additionaltext ,span a{
+    color: tomato;
+}
+.check:hover{
+cursor: pointer;
+}
+#sign-in:hover{
+    cursor: pointer;
+}
+
+.remove{
+    display: none;
+    background-color: red;
+}
+.form2nd{
+    display: none;
+}
+.show{
+    display: block;
+}
